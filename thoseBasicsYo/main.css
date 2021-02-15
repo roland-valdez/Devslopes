@@ -1,0 +1,13 @@
+.container {
+    /*background-color: burlywood;*/
+    background-image: linear-gradient(to right, darkgrey, orangered);
+    box-shadow: 3px 5px 3px black;
+}
+h1 {
+    color: aquamarine;
+    text-shadow: 2px 8px  5px black;
+}
+h2 {
+    color: rgb(0, 255, 255);
+    text-shadow: 4px 4px 3px black;
+}
