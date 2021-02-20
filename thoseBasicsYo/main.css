@@ -8,6 +8,22 @@ body{
     background-image: linear-gradient(to right, darkgrey, grey);
     box-shadow: 3px 5px 3px black;
 }
+
+#title {
+    color: green;
+}
+[id = "title"] {
+    color: cyan;
+}
+.container h1 {
+    color: blue;
+}
+div h1 {
+    color: purple;
+}
+h1 {
+    color: pink !important;
+}
 h1, h3, h4 {
     color: antiquewhite;
     text-shadow: 2px 8px  5px black;
