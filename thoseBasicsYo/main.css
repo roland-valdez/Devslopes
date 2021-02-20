@@ -8,9 +8,11 @@ body{
     background-image: linear-gradient(to right, darkgrey, grey);
     box-shadow: 3px 5px 3px black;
 }
-h1 {
+h1, h3, h4 {
     color: antiquewhite;
     text-shadow: 2px 8px  5px black;
+    line-height: 2.5em;
+    font-family: sans-serif;
 }
 h2 {
     color: rgb(255, 220, 255);
@@ -18,4 +20,11 @@ h2 {
 }
 .borderImg {
     border: 5px solid sandybrown;
+}
+ul li {
+    color: orange;
+    font-size: 20px;
+}
+ul > li {
+    color:red;
 }
