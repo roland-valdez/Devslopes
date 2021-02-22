@@ -1,6 +1,3 @@
-html {
-    font-family: "Chalkboard SE", serif, "Apple Braille";
-}
 
 body{
 
@@ -11,17 +8,27 @@ body{
     text-align: justify;
 }
 
-h1, h3, h4 {
+h1 {
     color: antiquewhite;
-    line-height: 2.5em;
-    font-style: italic;
+    line-height: 2em;
+    font-family: "Montserrat", serif, sans-serif;
+}
+h2 {
+    color: antiquewhite;
+    line-height: 2em;
+    font-family: "Akaya Telivigala", serif, sans-serif;
+}
+h3 {
+     color: antiquewhite;
+     line-height: 2em;
+    font-family: "RocknRoll One", serif, sans-serif;
+ }
+h4 {
+      color: antiquewhite;
+      line-height: 2em;
+    font-family: "Montserrat", serif, sans-serif;
 }
 
-h2 {
-    color: rgb(255, 220, 255);
-    font-size: 60px;
-    font-style: normal;
-}
 
 .borderImg {
     border: 5px solid sandybrown;
