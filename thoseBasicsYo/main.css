@@ -4,8 +4,8 @@ body{
     /*background-image: url(pictures/guitar.jpg);*/
     /*background-repeat: no-repeat;*/
     /*background-size: cover;*/
-    background-color: grey;
-    text-align: justify;
+    background-color: darkgrey;
+    /*text-align: center;*/
 }
 
 h1 {
@@ -28,10 +28,22 @@ h4 {
       line-height: 2em;
     font-family: "Montserrat", serif, sans-serif;
 }
+ img {
+     max-width: 100%;
+     height: auto;
+     padding: 5px;
+     opacity: 50%;
+     display: block;
+     margin: auto;
 
+ }
 
 .borderImg {
-    border: 5px solid sandybrown;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #ddd;
+    padding: 5px;
 }
 
 ul li {
