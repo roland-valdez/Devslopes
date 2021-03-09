@@ -86,8 +86,11 @@ ul.topnav li.dropdownIcon {
     background: -moz-linear-gradient(#076DFF, #65A5FF);
 }
 .leftside-col{
-    margin-left: 20%
+    margin-left: 30%
 
+}
+.rightside-col{
+    margin-left: 15%;
 }
 h1.large{
     color: white;
@@ -104,6 +107,7 @@ input[type="text"]{
     width: 400px;
     min-width: 100px;
     padding: 5px;
+    border-radius: 7px;
 
 }
 /****************** Mobile *****************/
@@ -134,5 +138,22 @@ input[type="text"]{
     ul.topnav.responsive li a {
         display: block;
         text-align: left;
+    }
+    .col-6{
+        width: 100%;
+        margin: 0;
+    }
+    .leftside-col, .rightside-col{
+        margin: 15px;
+    }
+    input[type="text"]{
+        width: 300px;
+    }
+    .videoContainer iframe{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    /*    should not need with as col-6 already set to 100%*/
     }
 }
