@@ -10,6 +10,14 @@ body {
     margin: 0;
 }
 
+label{
+    font-size: 35px;
+    font-weight: 600;
+}
+p{
+    font-size: 28px;
+    line-height: 1.2;
+}
 /*########## Nav bar ##############*/
 
 nav {
@@ -79,11 +87,43 @@ ul.topnav li.dropdownIcon {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+*{
+    box-sizing: border-box;
+}
 
 /****************** custom styles *****************/
 #section-1-gradient{
     background: #076DFF;/* default for browsers that dont support gradients */
     background: -moz-linear-gradient(#076DFF, #65A5FF);
+}
+div.box {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15),
+        0 2px 3px 0 rgba(0,0,0,.1);
+    text-align: center;
+    margin: 24px;
+    padding: 36px 24px 40px 24px;
+    border-radius: 7px;
+}
+div.icon {
+    width: 100%;
+
+}
+button{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: #0069ff;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+
+}
+button.learnMore{
+    display: block;
+    margin: auto;
 }
 .leftside-col{
     margin-left: 30%
@@ -98,7 +138,10 @@ h1.large{
     margin: 0;
     line-height: 70px;
 }
-
+h1.section2Header{
+    font-size: 65px;
+    text-align: center;
+}
 form h2 {
     color: white;
 }
@@ -139,9 +182,16 @@ input[type="text"]{
         display: block;
         text-align: left;
     }
-    .col-6{
+    h1.section2Header{
+        font-size: 50px;
+    }
+    .col-6, .col-4{
         width: 100%;
         margin: 0;
+    }
+    div.box{
+        padding: 5px;
+        display: block;
     }
     .leftside-col, .rightside-col{
         margin: 15px;

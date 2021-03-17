@@ -7,6 +7,16 @@
 </head>
 
 <body>
+<script>
+  function dropdownMenu(){
+    var x = document.getElementById("dropdownClick");
+    if(x.className === "topnav") {// causes this to toggle between two states
+      x.className += " responsive"; // changes topnav to topnav.responsive need leading space
+    }else {
+      x.className = "topnav";
+    }
+  }
+</script>
   <nav>
     <ul class="topnav" id="dropdownClick">
       <li><a href="#home">Home</a></li>
@@ -43,18 +53,45 @@
       </div>
     </div>
   </div>
-
-  <script>
-    function dropdownMenu(){
-      var x = document.getElementById("dropdownClick");
-      if(x.className === "topnav") {// causes this to toggle between two states
-        x.className += " responsive"; // changes topnav to topnav.responsive need leading space
-      }else {
-        x.className = "topnav";
-      }
-    }
-  </script>
-  
+  <header>
+      <h1 class="section2Header">The Standards of Awesomeness</h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="box">
+          <div calass="icon">
+            <img src="img/devIcon.png">
+          </div>
+          <label>Chat with Me</label>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto beatae consectetur eaque, et excepturi incidunt iusto laborum natus neque nisi non numquam, obcaecati perspiciatis, placeat porro quia recusandae vel.Aliquid autem delectus dicta dolore</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box">
+          <div calass="icon">
+            <img src="img/devIcon.png">
+          </div>
+          <label>Learn to Code</label>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto beatae consectetur eaque, et excepturi incidunt iusto laborum natus neque nisi non numquam, obcaecati perspiciatis, placeat porro quia recusandae vel.Aliquid autem delectus dicta dolore</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box">
+          <div calass="icon">
+            <img src="img/devIcon.png">
+          </div>
+          <label>Build an Empire</label>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto beatae consectetur eaque, et excepturi incidunt iusto laborum natus neque nisi non numquam, obcaecati perspiciatis, placeat porro quia recusandae vel.Aliquid autem delectus dicta dolore</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <button class="learnMore">Learn More</button>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
