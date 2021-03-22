@@ -269,14 +269,16 @@ footer.footsy ul li {
   div.slopeIcon img {
     width: 100%;
   }
-  
+  div.mobileStack h1{
+    font-size: 25px;
+  }
   div.leftSide-col,
   div.rightSide-col {
     margin: 15px;
   }
   
   input[type="text"] {
-    width: 350px;
+    width: 300px;
   }
   
   .videoContainer iframe {
